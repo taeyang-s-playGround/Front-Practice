@@ -1,4 +1,3 @@
-/* ----------------------전체 해당--------------------------- */
 body {
   margin: 0;
 }
@@ -26,6 +25,7 @@ a:hover {
   justify-content: space-between;
   padding: 6px;
   align-items: center;
+  width: 100%; /* 헤더가 화면 너비를 채우도록 설정 */
 }
 
 .header-left {

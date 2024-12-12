@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 /* ----------------------header부분--------------------------- */
 .header a {
@@ -23,9 +23,8 @@ a:hover {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 6px;
   align-items: center;
-  width: 100%; /* 헤더가 화면 너비를 채우도록 설정 */
+  width: 100%;
 }
 
 .header-left {

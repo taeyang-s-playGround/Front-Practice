@@ -1,0 +1,30 @@
+.container {
+  background: rgb(239, 223, 245);
+  height: 100vh;
+  display: flex;
+  flex-direction: row; /* 방향(기본값) */
+  flex-wrap: nowwrap; /* 줄바꿈 여부(기본값) */
+  justify-content: space-between; /* 어떻게 배치할건지(중심축에서) */
+  align-items: center; /* 어떻게 배치할건지 위치(반대축에서) */
+  align-content: space-between; /* 어떻게 배치할건지(반대축) */
+}
+
+/* 자식요소 */
+.item01 {
+  flex-grow: 2; /* 배치 크기 (다른 애들에 비해 2배만큼 커짐) */
+  flex-shrink: 2; /* 컨테이너 줄어들때 속도 (다른 애들에 비해 2배로 빨리 줄어들음) */
+  flex-basis: 60%; /* 차지하는 정도 (커질때나 작아질때나 얘에 의해 움직이게됨) */
+  align-self: center; /* 아이템별로 아이템 정렬 (얘 하나만 가운데로 가게됨) */
+}
+
+.item02 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 30%;
+  color: aqua;
+}
+.item03 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 10%;
+}

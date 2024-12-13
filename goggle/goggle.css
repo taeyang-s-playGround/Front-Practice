@@ -104,6 +104,9 @@ form {
   height: 40px;
   border-radius: 25px;
   align-items: center;
+  input:focus {
+    outline: none;
+  }
 }
 
 form .bi {
@@ -113,7 +116,7 @@ form .bi {
 
 .search-bar {
   width: 600px;
-  height: 35px;
+  height: 36px;
   margin-right: 10px;
   border: none;
 }
@@ -124,4 +127,48 @@ form .bi {
 
 .bi-keyboard-fill {
   color: rgb(154, 160, 166);
+}
+/* ----------------------버튼 부분 부분부분--------------------------- */
+
+.bbox a {
+  color: black;
+  font-size: 17px;
+  border-radius: 4px;
+  background-color: rgb(236, 238, 241);
+  text-align: center; /* 텍스트 중앙 정렬 */
+  display: block; /* a 태그를 블록 요소로 설정 */
+}
+
+.bbox {
+  padding: 2px; /* 내부 여백 */
+  margin-top: 30px; /* 외부 여백 */
+  margin-right: 30px; /* 외부 여백 */
+  width: 200px; /* 너비 */
+  height: 50px; /* 높이 */
+  display: inline-block; /* 인라인 블록 */
+  border-radius: 4px;
+  border: none;
+}
+
+/* ----------------------공백 채우는 부분부분--------------------------- */
+.space {
+  height: 370px;
+}
+/* ----------------------footer부분--------------------------- */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  background-color: rgb(242, 242, 242);
+  height: 99px;
+  width: 100%;
+}
+
+.country {
+  display: flex;
+  /* justify-content: flex-start; */
+  /* align-content: ; */
+  justify-content: flex-start;
+  margin: ;
 }

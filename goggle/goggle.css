@@ -210,3 +210,9 @@ form .bi {
   display: flex;
   justify-content: flex-end;
 }
+
+/* 추후 수정 */
+.footer-main {
+  display: inline;
+  justify-self: auto;
+}

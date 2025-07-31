@@ -19,13 +19,13 @@ const Wrapper = styled.div`
   padding: 48px 32px;
   background: #fff;
   border-radius: 24px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  box-shadow: 0 4px 24px ${({ theme }) => theme.colors.gray500};
 `;
 
 const Title = styled.h1`
   font-size: 3rem;
   font-weight: 800;
-  color: ${({ theme }) => theme.colors.gray500 || '#222'};
+  color: ${({ theme }) => theme.colors.main500 || '#222'};
   margin-bottom: 8px;
   font-family: 'Pretendard', sans-serif;
 `;
